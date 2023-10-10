@@ -1,0 +1,174 @@
+body
+{
+    background: rgb(169, 146, 233);
+}
+
+h1
+{
+    font-size: 45px;
+    color: rgb(82, 65, 122);
+    padding: 30px;
+}
+
+h2
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(82, 65, 122);
+    padding: 20px;
+}
+
+p
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+li
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+a
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+img
+{
+    width: 200px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.content-left
+{
+    width: 60%;
+    background-color: rgb(135, 117, 185);
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+.content-right
+{
+    align-self: flex-end;
+    background-color: rgb(135, 117, 185);
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+.header
+{
+    align-self: flex-end;
+    background-color: rgb(135, 117, 185);
+    padding: 5%;
+    border-radius: 25%;
+}
+
+.container
+{
+    background-color: rgb(135, 117, 185);
+}
+
+.container-2
+{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(135, 117, 185);
+}
+
+.container-3
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-between;
+    background-color: rgb(135, 117, 185);
+    border: solid rgb(154, 133, 212) 10px;
+}
+
+.container-4
+{
+    background-color: rgb(135, 117, 185);
+}
+
+.block
+{
+    margin: auto;
+    background-color: rgb(113, 99, 153);
+    width: 200px;
+    height: 200px;
+}
+
+.block-2
+{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(113, 99, 153);
+}
+
+.block-3
+{
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(113, 99, 153);
+}
+
+.shapes
+{
+    width: 200px;
+    height: 200px;
+}
+
+.border-1
+{
+    position: relative;
+    border: solid rgb(113, 99, 153) 5px;
+    left: 30%;
+    top: 100px;
+}
+
+.border-2
+{
+    position: relative;
+    border: solid rgb(113, 99, 153) 5px;
+    left: 40%;
+}
+
+.border-3
+{
+    position: relative;
+    border: solid rgb(113, 99, 153) 5px;
+    left: 50%;
+    bottom: 100px;
+}
+
+.position_fixed
+{
+    width: 100px !important;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
